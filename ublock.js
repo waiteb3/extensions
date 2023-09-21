@@ -17,7 +17,7 @@ try {
             inset-inline: auto var(--_viewport-margin);
             }
             */
-            const div = document.createElement('div');
+            const div = document.createElement('myconflictfreediv');
 
             div.id = 'ublock-injected-reddit-fob';
             div.innerText = 'Goto Old Reddit';
