@@ -6,17 +6,6 @@ try {
                 return;
             }
 
-            /**
-            .fabs {
-            --_viewport-margin: 2.5vmin;
-        
-            position: fixed;
-            z-index: var(--layer-1);
-        
-            inset-block: auto var(--_viewport-margin);
-            inset-inline: auto var(--_viewport-margin);
-            }
-            */
             const div = document.createElement('myconflictfreediv');
 
             div.id = 'ublock-injected-reddit-fob';
@@ -41,6 +30,7 @@ try {
             display: inline-block;
             vertical-align: middle;
             cursor: pointer;
+            z-index: 2147483647;
             `;
 
             document.body.appendChild(div);
